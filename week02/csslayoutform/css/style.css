@@ -1,0 +1,263 @@
+/***************************************************************************************
+                            IDS
+****************************************************************************************/
+#mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    height: 100%;
+    
+}
+#speichernButton{
+    background-color: #BE1400;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    height: 2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    right: 0;
+    top:26rem;
+    width: 7rem;
+    cursor: pointer;
+
+}
+#de{
+    height: 2.2rem;
+    padding: 0px;
+    border:1px solid gray;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 33%;
+
+}
+#fr{
+    height: 2.2rem;
+    padding: 0px;
+    border:1px solid gray;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 33%;
+}
+#it{
+    height: 2.2rem;
+    padding: 0px;
+    border:1px solid gray;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 33%;
+}
+#hausnummer{
+    width: 3rem;
+    border:1px solid black
+}
+#adresshausnummer{
+    width: 12rem;
+}
+#hausnummer{
+    width: 5.5rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0px;
+}
+#plzort{
+    width: 12rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0px;
+}
+#plz{
+    width: 5.5rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0px;
+}
+#land{
+    width: 12rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0px;
+}
+#kantonland{
+    width: 5.5rem;
+    border-left: none;
+    border-right: none;
+    border-top: 0px;
+}
+#stickDiv{
+    display: inline-block;
+    margin-top: 1rem;
+}
+/*
+#weiblich{
+    width: 50%;
+    height: 2.2rem;
+    border:1px solid gray;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+#mannlich{
+    width: 50%;
+    height: 2.2rem;
+    border:1px solid gray;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    background-color: white;
+    border-radius: 5px;  
+    display: inline-block; 
+}
+
+***************************************************************************************
+                            RADIO BUTTON
+****************************************************************************************/
+#stickDiv input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    
+  }
+#stickDiv label {
+    
+    background-color:white;
+    padding: 10px 63px;
+    margin-top: 10px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+   
+}
+#stickDiv input[type="radio"]:checked + label {
+    
+    border-bottom-color: red;
+    color:red;
+    font-weight: bold;
+    border-bottom-style: bold ;
+
+}
+#stickDiv label:hover {
+    border-bottom-color: red;
+    border-bottom-style: bold ;
+    color:red;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+/***************************************************************************************
+                    CLASSES
+****************************************************************************************/
+.rowDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+}
+/***************************************************************************************
+                    TAGS
+****************************************************************************************/
+section{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+height: 28%;
+position: relative;
+}
+header{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    height: 16%;
+}
+h2{
+    font-size:20px;
+}
+div{
+    font-size: 16px;
+    width: 18rem;
+    margin-bottom: 0.5rem;
+}
+input{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 1.5rem;
+    border-radius: 2.5px;
+}
+/***************************************************************************************
+PSEUDO-ELEMENTS
+****************************************************************************************/
+h1::before{
+    background-color: black;
+    width: 12rem;
+    height: 0.3rem;
+    display: block;
+    content: "";
+    border-top: 8px solid black;
+    margin: 0 0 0.5em;
+}
+section::before{
+    background-color: black;
+    width: 100%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 3px solid black;
+    margin: 0 0 0.5em;
+}
+#weiblich:hover{
+    border-bottom:2px solid red;
+    color:red;
+    cursor: pointer;
+}
+#mannlich:hover{
+    border-bottom:2px solid red;
+    color:red;
+    cursor: pointer;
+}
+#de:hover{
+    border-bottom:2px solid red;
+    color:red;
+    cursor: pointer;
+}
+#fr:hover{
+    border-bottom:2px solid red;
+    color:red;
+    cursor: pointer;
+}
+#it:hover{
+    border-bottom:2px solid red;
+    color:red;
+    cursor: pointer;
+}
+#speichernButton:hover{
+    width:7.5rem ;
+    height: 2.5rem;
+}
+#kantons{
+    width: 5.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    height: 1.7rem;
+}

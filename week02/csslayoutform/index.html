@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de"> <!--Language of form is German. Sprache der Form ist Deutsch!!!-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main id="mainContent">
+        <header>
+            <h1>Profil</h1>
+            <p>Hier können Sie ihre Adress-Angaben und anpassen.</p>
+        </header>
+        <form action="" method="POST">
+            <section>
+                <h2>Persönliche Daten</h2>
+                <div class="rowDiv">
+                    <div> <label for="titel">Titel</label></div>
+                    <div><input type="text" id="titel" name="titel" placeholder="Dr. Hc"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="vorname">Vorname</label></div>
+                    <div> <input type="text" id="vorname" name="vorname" placeholder="Peter"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="nachname">Nachname</label></div>
+                    <div> <input type="text" id="nachname" name="nachname" placeholder="Muster"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label >Geschlecht</label></div>
+                    <div id="stickDiv">
+                        <label >W</label><label >M</label>
+                        <input type="radio" id="weiblich" name="geschlecht" value="w" checked>
+                        <input type="radio" id="mannlich" name="geschlecht" value="m" checked>
+                    </div>
+                </div>
+                <div class="rowDiv">
+                    <div> <label >Sprache</label></div>
+                    <div>
+                        <input type="button" id="de" name="sprache" value="DE"><input type="button" id="fr" name="sprache" value="FR"><input type="button" id="it" name="sprache" value="IT">
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Kontaktdaten</h2>
+                <div class="rowDiv">
+                    <div> <label for="telefon">Telefon</label></div>
+                    <div> <input type="number" id="telefon" name="telefon" required></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="mobile">Mobile</label></div>
+                    <div><input type="number" id="mobile" name="mobile" placeholder="optional"></div>
+                </div>
+                <div class="rowDiv">
+                    <div> <label for="hauptnummer">Hauptnummer</label></div>
+                    <div> <input type="number" id="hauptnummer" name="hauptnummer" placeholder="optional"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="fax">Fax</label></div>
+                    <div><input type="number" id="fax" name="fax" placeholder="optional"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="mail1">Mail 1</label></div>
+                    <div><input type="email" id="mail1" name="mail1" placeholder="example@example.com" required></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="mail2">Mail 2</label></div>
+                    <div> <input type="email" id="mail2" name="mail2" placeholder="optional"></div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Adressdaten</h2>
+                <div class="rowDiv">
+                    <div><label for="firma">Firma</label></div>
+                    <div><input type="text" id="firma" name="firma" required></div>
+                </div>
+                <div class="rowDiv">
+                    <div> <label for="zusatzfirma">Zusatz Firma</label></div>
+                    <div><input type="text" id="zusatzfirma" name="zusatzfirma" placeholder="optional"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="homepage">Homepage</label></div>
+                    <div><input type="text" id="homepage" name="homepage" placeholder="optional"></div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="adresshausnummer">Adresse/Haus Nr</label></div>
+                    <div>
+                        <input type="text" id="adresshausnummer" name="adresshausnummer" placeholder="Musterstrasse">
+                        <input type="number" id="hausnummer" name="hausnummer" placeholder="33">
+                    </div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="zusatzadresse">Zusatz Adresse</label></div>
+                    <div>
+                        <input type="text" id="zusatzadresse" name="zusatzadresse" placeholder="optional">
+                       
+                    </div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="postfach">Postfach</label></div>
+                    <div>
+                        <input type="text" id="postfach" name="postfach" placeholder="optional">
+                      
+                    </div>
+                </div>
+                <div class="rowDiv">
+                    <div><label for="plzort">PLZ / Ort</label></div>
+                    <div>
+                        <input type="number" id="plz" name="plz" placeholder="8800">
+                        <input type="text" id="plzort" name="plzort" placeholder="Musterstadt">
+                    </div>
+                </div>
+                <div class="rowDiv">
+                    <div> <label for="kantonland">Kanton / Land</label></div>
+                    <div>
+                        <select id="kantons">
+                            <option value="ZH">ZH</option>
+                            <option value="BE">BE</option>
+                            <option value="BS">BS</option>
+                            <option value="AR">AR</option>
+                          </select>
+                        <input type="text" id="land" name="land" placeholder="Schweiz">
+                    </div>
+                </div>
+                <input id="speichernButton" type="button" value="Speichern">
+               
+            </section>
+        </form>
+    </main>
+</body>
+</html>

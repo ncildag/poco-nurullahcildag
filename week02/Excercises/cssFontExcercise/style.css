@@ -1,0 +1,42 @@
+/*
+body{
+    font-height:1.45;
+}
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    }
+P{
+    font-family: 'Roboto Slab', serif;
+font-family: 'Rokkitt', serif;
+
+}
+div{
+   font-family: 'Fira Code', monospace;
+}
+
+section{
+    font-size: 2rem;
+}
+*/
+
+
+p{
+    font-variant: small-caps;
+    
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+h1:: after {
+
+display block
+baground color :red
+content :"";
+width 10px;
+height:2px;
+
+}
