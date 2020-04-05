@@ -1,0 +1,355 @@
+/**************************************************************************
+                TAGS
+**************************************************************************/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color:white;
+
+}
+section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 100%;
+    height: 5%;
+}
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+ul{
+    margin: 0;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    display: inline;
+    padding-right: 1rem;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    background-color: black;
+    border-color: 1px solid white;
+    color:white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+}
+div{
+   width: 50%;
+   padding-right: 2rem;
+   height: 100%;
+  
+}
+h2{
+    color:gray;
+}
+p{
+    color: gray;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+fieldset{
+height: 5.5rem;
+width: 13rem;
+background-color: rgb(65, 65, 65);
+}
+
+/**************************************************************************
+                ids
+**************************************************************************/
+#firstSection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#secondSection{
+    width: 100%;
+    height: 25%;
+    
+}
+#thirdSection{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+#navTagInsideHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+   
+}
+#headerInformation{
+    width: 30%;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+    
+}
+#downArrow{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+#logo{
+    margin-left: 6rem;
+    font-size: large;
+    font-weight: bold;
+    font-size: 20px ;
+}
+#iDesignDigital{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 60%;
+}
+#macbookImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#learnAboutMe{
+    margin-top: -2rem;
+    height: 2rem;
+    background-color:#aca8a8;
+    color: white;
+    
+}
+#macbookImageToAdjust{
+    height: 18rem;
+}
+
+[type="button"]{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    
+}
+#myDaily{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+}
+#statisticInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+#secondSection{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#media{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+}
+#checkHeaderOneStep{
+    background-color: white;
+    color: gray;
+    padding-bottom: 2rem;
+}
+#latestBlog{
+    width: 40%;
+}
+#sectionFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 2rem;
+}
+#contactButton{
+    width: 8rem;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-radius: 15px;
+    margin-top: 1rem;
+    height: 1.9rem;
+}
+#symbol{
+    margin-left: 17rem;
+}
+/**************************************************************************
+               CLASSES
+**************************************************************************/
+.wrapLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+.wrapDiv{
+    width: 12%;
+    height: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.afterDiv{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 15%;
+    height: 10%;
+}
+.firstline{
+   margin-bottom: -5px;
+}
+.secondHeader{
+    background-color: white;
+    color: black;
+}
+.myLatestWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rowDivs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.myHappyClients{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.columnDivs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs{
+    border-radius: 10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+/**************************************************************************
+                selectors
+**************************************************************************/
+h2::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 3px solid gray;
+    margin: 0.5em 0 0.2em 0 ;
+}
+#mayDailyServices::after{
+    background-color: gray;
+    width: 30%;
+    height: 0.1px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin: 0.5em 0 0.2em 0 ;
+    margin-left: 2.5rem;
+}
+.firstline::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    
+}
+#checkHeaderTwoStep::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-left:4rem;
+    margin-top: 1rem;
+}
+#headerFooter::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-left:4rem;
+    margin-top: 1rem;
+}

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Powercoders Homework Week 02 CSS Layout-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excercise2 Nurullah Cildags Portfolio</title>
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header id="top">
-        <h2><a href="/"><img src="" alt=""></a></h2>
-        <nav>
+        <nav id="navTagInsideHeader">
+            <a id="logo" href="/">CODER</a>
             <ul>
                 <li> <a href="#home">Home</a></li>
                 <li> <a href="#about">About</a></li>
@@ -20,35 +22,26 @@
             </ul>
         </nav>
         <!--Slider;image with title, text and the buton-->
-        <ul>
-            <li>
-                <img src="" alt="Image of teh firs tslider item">
-                <h1>Hi, I am Nurullah Cildag</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque, nobis tenetur quod unde
-                    ipsam fuga? Quod, numquam? Accusantium excepturi quia harum eius repellendus ullam quasi alias
-                    libero quaerat vitae.</p>
-            </li>
-            <li>
-                <!--only one h1 per webpage,other slider item get h2 styled the same-->
-                <img src="" alt="Image of teh firs tslider item">
-                <h2>Hi, I don't have experience as web developer.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel corporis nulla deleniti
-                    dignissimos est itaque placeat similique rem impedit iure quisquam ratione ad dolorem, doloremque
-                    repellat sequi velit voluptatibus?</p>
-                <a href="#contact" class="btn">Hire me</a>
-            </li>
-        </ul>
-
-
+        <div id="headerInformation">
+            <h1>Hi, I'am AB de Villiers</h1>
+            <p>I'm digital &and; web developer, art director and passionate geek hailing from South Afroca.</p>
+            <button>HIRE ME</button>
+        </div>
+        <img id="downArrow" src="https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-arrow-down-circle-thin.png">
     </header>
+
     <main>
-        <section>
-            <article>
-                <div>
-                    <img src="" alt="">
-                    <footer>
-                        <p></p>
-                        <nav></nav>
+        <section id="firstSection">
+            <article id="iDesignDigital">
+                <div id="macbookImage">
+                    <img id="macbookImageToAdjust" src="https://cnet1.cbsistatic.com/img/_3RozH4A8v5hP8ERVdzW0PTtbL4=/420x236/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg" alt="">
+                    <footer id="learnAboutMe">
+                        <p>Learn More About Me</p>
+                        <nav>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </nav>
                     </footer>
                 </div>
                 <div>
@@ -65,216 +58,209 @@
                     <input type="button" value="Check My Work">
                 </div>
             </article>
-            <article>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis deleniti laborum ullam accusamus
-                    laudantium, fuga minus, atque aliquid laboriosam quisquam, explicabo molestiae. Repudiandae minima,
-                    labore hic quas autem assumenda laborum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est nisi numquam culpa modi inventore
-                    itaque
-                    magni cupiditate delectus possimus maiores. Libero fugit nostrum quasi aspernatur voluptatibus
-                    blanditiis sint et itaque?</p>
+            <article id="myDaily">
+                <p>What I do</p>
+                <p id="mayDailyServices">My Daily Services</p>
             </article>
-            <article>
-                <section>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+            <article id="wrap">
+                <section class="wrapLine" >
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
                 </section>
-                <section>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                <section class="wrapLine">
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
+                    <div class="wrapDiv">
+                        <img src="https://banner2.cleanpng.com/20190419/afi/kisspng-html5-cascading-style-sheets-javascript-computer-i-html-5-logo-svg-png-icon-free-download-45242-5cba7c2de9b5a0.9506280715557253579573.jpg" alt="">
+                        <p>HTML5 Service</p>
                     </div>
                 </section>
             </article>
         </section>
 
-        <section id="statisticInformation">
-            <div>
-                <div>2222</div>
+        <article id="statisticInformation">
+            <div  class="afterDiv">
+                <p class="firstline">2222</p>
                 <p>Happy Customers</p>
             </div>
-            <div>
-                <div>2222</div>
+            <div class="afterDiv">
+                <p class="firstline">2222</p>
                 <p>Happy Customers</p>
             </div>
-            <div>
-                <div>2222</div>
+            <div class="afterDiv">
+                <p class="firstline">2222</p>
                 <p>Happy Customers</p>
             </div>
-            <div>
-                <div>2222</div>
+            <div class="afterDiv">
+                <p class="firstline">2222</p>
                 <p>Happy Customers</p>
             </div>
-        </section>
+        </article>
 
-        <section>
-            <header>
-                <h3>Visit my Latest Work</h3>
+        <section id="secondSection">
+            <header class="secondHeader">
+               <h3>Visit my<br>Latest Work</h3>
             </header>
-            <article>
-                <div>
-                    <img src="" alt="">
-                    <p>MOBILE MOCKUP DESIGN</p>
-                    <p>Design</p>
+            <article class="myLatestWork">
+                <div class="rowDivs">
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <p>MOBILE MOCKUP DESIGN</p>
-                    <p>Design</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>MOBILE MOCKUP DESIGN</p>
-                    <p>Design</p>
+                <div class="rowDivs">
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/z/smartphone-mobile-phone-hand-comics-style-design-cartoon-vector-illustration-94522924.jpg" alt="">
+                        <p>MOBILE MOCUP DESIGN</p>
+                        <p>Design</p>
+                    </div>
                 </div>
             </article>
-            <header>
-                <h3>What Say My Happy Clients</h3>
-            </header>
-            <article>
-                <section>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae similique cupiditate non
-                        distinctio ea enim cumque, nesciunt alias amet! Culpa similique asperiores facilis at ut
-                        voluptate cum eum sunt.</p>
-                    <p>Kawsar Ahmed</p>
-                    <p>CEO-thecodrops.com</p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae similique cupiditate non
-                        distinctio ea enim cumque, nesciunt alias amet! Culpa similique asperiores facilis at ut
-                        voluptate cum eum sunt.</p>
-                    <p>Kawsar Ahmed</p>
-                    <p>CEO-thecodrops.com</p>
+            <article class="myHappyClients">
+                <h3>What say<br>My Happy Clients</h3>
+                <section class="rowSection">
+                    <div class="rowDivs">
+                        <div>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odio impedit maxime tempora, quam adipisci assumenda officiis, quas voluptatibus voluptas tenetur. Facere rem hic aliquam doloremque perferendis enim amet quas.</P>
+                            <P>Kawsar Ahmed</P>
+                        </div>
+                        <div>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odio impedit maxime tempora, quam adipisci assumenda officiis, quas voluptatibus voluptas tenetur. Facere rem hic aliquam doloremque perferendis enim amet quas.</P>
+                            <P>Kawsar Ahmed</P>
+                        </div>
+                    </div>
+                    <div class="rowDivs">
+                        <div>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odio impedit maxime tempora, quam adipisci assumenda officiis, quas voluptatibus voluptas tenetur. Facere rem hic aliquam doloremque perferendis enim amet quas.</P>
+                            <P>Kawsar Ahmed</P>
+                        </div>
+                        <div>
+                            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odio impedit maxime tempora, quam adipisci assumenda officiis, quas voluptatibus voluptas tenetur. Facere rem hic aliquam doloremque perferendis enim amet quas.</P>
+                            <P>Kawsar Ahmed</P>
+                        </div>
+                    </div>
                 </section>
             </article>
-            <article>
-                <section>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae similique cupiditate non
-                        distinctio ea enim cumque, nesciunt alias amet! Culpa similique asperiores facilis at ut
-                        voluptate cum eum sunt.</p>
-                    <p>Kawsar Ahmed</p>
-                    <p>CEO-thecodrops.com</p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae similique cupiditate non
-                        distinctio ea enim cumque, nesciunt alias amet! Culpa similique asperiores facilis at ut
-                        voluptate cum eum sunt.</p>
-                    <p>Kawsar Ahmed</p>
-                    <p>CEO-thecodrops.com</p>
-                </section>
+
+            <article id="media">
+                <!--MEDIA TAG AND VIDEO HERE-->
             </article>
         </section>
 
-        <section>
-            <!--MEDIA TAG AND VIDEO HERE-->
-        </section>
+        
 
-        <section>
-            <header>
-                <h3>Check My Latest Blog</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aperiam adipisci at delectus ut
+        <section id="thirdSection">
+            <header id="checkHeaderOneStep">
+                <h3 id="checkHeaderTwoStep">Check My Latest Blog</h3>
+                <p id="latestBlog">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aperiam adipisci at delectus ut
                     exercitationem ab perspiciatis eveniet laudantium magni, nam sit eum excepturi assumenda saepe vitae
                     unde! Molestiae, rem.</p>
             </header>
-            <article>
-                <section>
+            <article class="rowDivs">
+               
+                   <div>
+                    <img src="https://cnet1.cbsistatic.com/img/_3RozH4A8v5hP8ERVdzW0PTtbL4=/420x236/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg" alt="">
                     <div>
-                        <div>Jan 05</div>
-                    </div>
-                    <div>
-                        <h4></h4>
+                        <p>5 Tips Print Designer</p>
                         <div></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cum necessitatibus odio
-                            officiis quod atque laborum, praesentium reiciendis aspernatur eaque qui corporis optio
-                            dignissimos nulla tenetur magni explicabo ex! In.</p>
+                        <p>i am so happy,my dear friend,so absorbed in the exqusite sense of mere tranwuil existence, that I neglect my talents.
+                        </p>
                         <button>Read More</button>
                     </div>
-                </section>
-                <section>
+                   </div>
+                   <div>
+                    <img src="https://cnet1.cbsistatic.com/img/_3RozH4A8v5hP8ERVdzW0PTtbL4=/420x236/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg" alt="">
                     <div>
-                        <div>Jan 05</div>
-                    </div>
-                    <div>
-                        <h4></h4>
+                        <p>5 Tips Print Designer</p>
                         <div></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cum necessitatibus odio
-                            officiis quod atque laborum, praesentium reiciendis aspernatur eaque qui corporis optio
-                            dignissimos nulla tenetur magni explicabo ex! In.</p>
+                        <p>i am so happy,my dear friend,so absorbed in the exqusite sense of mere tranwuil existence, that I neglect my talents.
+                        </p>
                         <button>Read More</button>
                     </div>
-                </section>
-                <section>
+                   </div>
+                   <div>
+                    <img src="https://cnet1.cbsistatic.com/img/_3RozH4A8v5hP8ERVdzW0PTtbL4=/420x236/2020/03/19/5de637d4-b897-4fce-9155-e625bc7c9503/img-8349.jpg" alt="">
                     <div>
-                        <div>Jan 05</div>
-                    </div>
-                    <div>
-                        <h4></h4>
+                        <p>5 Tips Print Designer</p>
                         <div></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cum necessitatibus odio
-                            officiis quod atque laborum, praesentium reiciendis aspernatur eaque qui corporis optio
-                            dignissimos nulla tenetur magni explicabo ex! In.</p>
+                        <p>i am so happy,my dear friend,so absorbed in the exqusite sense of mere tranwuil existence, that I neglect my talents.
+                        </p>
                         <button>Read More</button>
                     </div>
-                </section>
+                   </div>  
             </article>
         </section>
     </main>
 
     <footer>
-        <section>
-            <h3>Need Freelance Work?</h3>
+        <section id="sectionFooter">
+            <h3 id="headerFooter">Need Freelance Work?</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ratione sed sunt, velit consequatur non?
-                Impedit cumque exercitationem, ad, illo dignissimos itaque eveniet corporis in dolorum placeat
-                repudiandae inventore earum?</p>
+               </p>
         </section>
         <form>
-            <div>
+            <div class="rowDivs">
                 <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <input type="text" class="inputs" placeholder="Name">
+                    <input type="text" class="inputs"placeholder="Email">
+                    <input type="text" class="inputs" placeholder="Subject">
                 </div>
-                <div>
-                    <fieldset>Your Message</fieldset>
-                </div>
+                
+                    <fieldset></fieldset>
+                
             </div>
-            <div><button>Contact Now</button></div>
+            <button id="contactButton">Contact Now</button>
         </form>
         <nav>
             <div>
                 <p>COPYRIGHT &copy; 2017 CODER. ALL RIGHTS RESERVED</p>
             </div>
-            <div>&uArr;</div>
+            <div id="symbol">&uArr;</div>
             <div>
                 <ul>
                     <li>FACEBOOK</li>
