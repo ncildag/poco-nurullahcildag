@@ -1,0 +1,445 @@
+/**************************************************************************
+                TAGS
+**************************************************************************/
+a{
+    text-decoration: none;
+    color:white;
+}
+article{
+    width: 100%;
+    height: 5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+    background-color: black;
+    border-color: 1px solid white;
+    color:white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+}
+div{
+    width: 50%;
+    padding-right: 2rem;
+    height: 100%;
+ }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+}
+footer{
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color:gray;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-image: url('/img/header.jpg');
+    color:white;
+}
+img{
+    width: 100%;
+    height: 100%;  
+}
+li{
+    display: inline;
+    padding-right: 1rem; 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+p{
+    color: gray;
+
+}
+section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    margin: 0;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li:hover{
+    cursor: pointer;
+    font-size: 2rem;
+}
+/**************************************************************************
+                ids
+**************************************************************************/
+#contactButton{
+    width: 10rem;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-radius: 15px;
+    margin-top: 1rem;
+    height: 2.4rem;
+}
+#contactButton:hover{
+    width: 11rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+#checkHeaderOneStep{
+    background-color: white;
+    color: gray;
+    padding-bottom: 2rem;
+}
+#design {
+    
+    flex-direction: column;
+    align-items: center;
+}
+#downArrow{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+#fieldset{
+    height: 15rem;
+    width: 35rem;
+    background-color: rgb(65, 65, 65);
+    color:white;
+    font-weight: bold;
+}
+#firstSection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#headerInformation{
+    width: 30%;
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+#hireme{
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    width: 8rem;
+    margin-top: 2rem;
+}
+#iDesignDigital{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 60%;
+}
+#lastNav{
+    position: fixed;
+    bottom: 0;
+   
+}
+#lastNav>div>p {
+    width: 25rem;
+}
+#latestBlog{
+    width: 40%;
+}
+#logo{
+    
+    font-size: large;
+    font-weight: bold;
+    font-size: 20px ;
+}
+#learnAboutMe{
+    margin-top: -2.5rem;
+    height: 2rem;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#learnAboutMe > p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);  
+    margin-bottom: 1rem;
+}
+#learnAboutMeP:hover{
+    cursor: pointer;
+}
+#macbookImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#macbookImageToAdjust{
+    height: 18rem;
+    width: 20rem;
+    
+}
+#media{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+}
+#myDaily{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#myDailyParagraph{
+    margin-bottom: 0;
+}
+#navTagInsideHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+#secondSection{
+    width: 100%;
+    height: 25%;
+    
+}
+#secondSection{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#sectionFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 2rem;
+}
+#statisticInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+#symbol{
+    margin-left: 17rem;
+}
+#top{
+    height: 35rem;
+}
+#thirdSection{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+}
+[type="text"]{
+    width: 20rem;
+    height: 2rem;
+    text-align: start ;
+}
+[type="button"]{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+}
+[type="button"]:hover{
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+/**************************************************************************
+               CLASSES
+**************************************************************************/
+.columnDivs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.afterDiv{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 15%;
+    height: 10%;
+}
+.firstline{
+   margin-bottom: -5px;
+}
+.inputs{
+    border-radius: 10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.myHappyClients{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.myLatestWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.rowDivs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowDivsSpecial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rowSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHeader{
+    background-color: white;
+    color: rgb(211, 201, 201);
+}
+.secondHeader > h3{
+    text-align: center;
+}
+.secondHeader:first-child:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+.wrapLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+.wrapDiv{
+    width: 12%;
+    height: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/**************************************************************************
+                selectors
+**************************************************************************/
+#headerInformation > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 3px solid gray;
+    margin: 0.5em 0 0.2em 0 ;
+}
+#mayDailyServices::after{
+    background-color: gray;
+    width: 30%;
+    height: 0.1px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin: 1rem 0 0.2em 0 ;
+    margin-left: 1.8rem;
+}
+.firstline::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    
+}
+#checkHeaderTwoStep::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-left:4rem;
+    margin-top: 1rem;
+}
+#headerFooter::after{
+    background-color: gray;
+    width: 20%;
+    height: 0.3px;
+    display: block;
+    content: "";
+    border-top: 1px solid gray;
+    margin-left:4rem;
+    margin-top: 1rem;
+}
+@media screen and (max-width:250px) {
+#top{
+    width: 250px;
+}
+#iDesignDigital {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+ul{
+    margin: 0;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+}
