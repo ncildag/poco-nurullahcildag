@@ -30,3 +30,14 @@ console.log(yeniIterate());
 for(let i=0;i<11;i++){
     console.log(i*9);
 }
+
+function my(){
+    let i=10;
+    for (i=10; i>=0; i--){
+    setTimeout(() => {
+  
+   
+}, 1000);
+return console.log(i);
+}}
+console.log(my());
