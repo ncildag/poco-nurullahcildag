@@ -7,7 +7,7 @@ button.addEventListener("click", reverseStr);
 form.addEventListener("submit", (event) => {event.preventDefault();});
 
 function reverseStr() {
-    if(input.value.trim()!==""){
+    if(input.value.trim()!==""){ // ! trim ??
         let wordArray = input.value.split(" ");
         let reverseString = wordArray.reverse().join(" ");
         let output = document.getElementById("output");
