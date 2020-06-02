@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ismet</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main>
+    <form action="" id="form">
+      <h2>ADRESSBOOK</h2>
+      <article id="article">
+        <div>
+          <label for="name">Firstname:<span>&ast;</span></label>
+          <label for="lastname">Lastname:<span>&ast;</span></label>
+          <label for="email">E-Mail:</label>
+          <label for="phone">Phone Number:</label>
+          <label for="adress">Adress:</label>
+          <label for="city">City:</label>
+          <label for="zipCode">Zip Code:</label>
+        </div>
+        <div>
+          <input type="text" id="firstname" placeholder="Firstname">
+          <input type="text" id="lastname" placeholder="Lastname">
+          <input type="email" id="email" placeholder="e-mail@mail.com">
+          <input type="number" id="phone" placeholder="0121234567">
+          <input type="text" id="adress" placeholder="Adress">
+          <input type="text" id="city" placeholder="City">
+          <input type="number" id="zipCode" placeholder="Zip Code">
+        </div>
+      </article>
+      <input type="submit" value="Create Contact" id="button">
+      <div>
+        <h3>Your Contacts will be showed here</h2>
+          <ol id="printArea"></ol>
+      </div>
+      <ul id="contactDetail"></ul>
+    </form>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
